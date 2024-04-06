@@ -8,10 +8,10 @@ function getRandomInt(max: number) {
     children: React.ReactNode;
   }) {
     // Throw error 50% of the time
-    // const random = getRandomInt(2);
-    // if (random === 1) {
-    //   throw new Error("Error loading product details");
-    // }
+    const random = getRandomInt(2);
+    if (random === 1) {
+      throw new Error("Error loading product details");
+    }
     return (
       <>
         <h2>Featured products layout</h2>
